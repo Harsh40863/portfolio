@@ -115,9 +115,9 @@ function RAGPipeline() {
 }
 
 const stats = [
-  { value: 'Global Finalist', label: 'among 2,900+ teams - HackIndia' },
+  { value: 'Global Finalist', label: 'among 29,000+ participants - HackIndia' },
   { value: '850+', label: 'DSA problems solved' },
-  { value: '1738', label: 'LeetCode peak rating' },
+  { value: '1851', label: 'LeetCode peak rating' },
 ]
 
 export default function Hero() {

@@ -11,13 +11,13 @@ const cards = [
   {
     Icon: Zap,
     title: 'Competitive Edge',
-    body: 'LeetCode 1738 · CodeChef 3★ (1611) · Codeforces 1240. 850+ problems across LeetCode, Codeforces, CodeChef, CSES, and NeetCode — I solve hard problems fast because I\'ve solved a lot of them.',
+    body: 'LeetCode 1851 · CodeChef 3★ (1611) · Codeforces 1240. 850+ problems across LeetCode, Codeforces, CodeChef, CSES, and NeetCode — I solve hard problems fast because I\'ve solved a lot of them.',
     accent: 'text-gold',
   },
   {
     Icon: Rocket,
     title: "Ships, Doesn't Slide-Deck",
-    body: 'AI Mock Interviewer and summary.ai are live in production — Railway, Vercel, MongoDB Atlas. I debug Python version conflicts, IP whitelisting, and API key management so users actually get to use what I build.',
+    body: 'summary.ai, Harsh Bank of India, VideoMind, and Real-Time Collaborative Code Editor — I architect end-to-end systems with FastAPI, Express.js, MongoDB, LangGraph, and WebSockets so users actually get to use what I build.',
     accent: 'text-cyan-wire',
   },
 ]

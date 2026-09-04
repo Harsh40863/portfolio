@@ -4,12 +4,12 @@ import { Trophy, Palette } from 'lucide-react'
 const experiences = [
   {
     Icon: Trophy,
-    period: 'Sep 2025',
+    period: 'Jan 2025',
     title: 'Global Finalist — HackIndia Hackathon',
-    subtitle: "India's Biggest AI & Web3 Hackathon · 2,900+ Participants",
+    subtitle: "India's Biggest AI & Web3 Hackathon · 29,000+ Participants",
     highlights: [
-      'Advanced to Global Finals with summary.ai — a deployed Document Summarization & Retrieval System (FastAPI + React) using RAG, LangChain, and Google Gemini API.',
-      'Engineered a semantic search pipeline with FAISS vector indexing and T5 summarization; layered Gemini reasoning to reduce hallucination and improve retrieval accuracy.',
+      'Advanced to Global Finals with summary.ai — a deployed multi-tenant Document Summarization & Retrieval System (FastAPI backend) using RAG, FAISS, MongoDB, and Redis/Upstash.',
+      'Engineered a semantic search and summarization pipeline combining Mistral AI and the Google Gemini API to reduce hallucination and improve retrieval accuracy.',
       'Presented the live, end-to-end system to industry judges from AI & Web3 domains.',
     ],
     accent: 'text-cyan-wire',
@@ -29,7 +29,6 @@ const experiences = [
     border: 'border-l-gold',
   },
 ]
-
 const containerVariants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.15 } },

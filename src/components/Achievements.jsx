@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { Trophy, Award, Code, Users, Calendar, Medal } from 'lucide-react'
 
 const competitive = [
-  { platform: 'LeetCode', stat: '1738', detail: '250+ problems · DS, DP, Graphs' },
+  { platform: 'LeetCode', stat: '1851', detail: '290+ problems · DS, DP, Graphs' },
   { platform: 'CodeChef', stat: '1611', detail: '3★ · 40+ rated contests' },
   { platform: 'Codeforces', stat: '1240', detail: 'Pupil · 35+ rated rounds' },
   { platform: 'Total', stat: '850+', detail: 'Across LeetCode, CF, CC, CSES, NeetCode' },
@@ -33,7 +33,7 @@ const milestones = [
   {
     Icon: Trophy,
     title: 'HackIndia Global Finalist',
-    detail: 'summary.ai — Advanced among 2,900+ teams nationally',
+    detail: 'summary.ai — Advanced among 29,000+ teams nationally',
   },
   {
     Icon: Medal,

@@ -9,21 +9,27 @@ const layers = [
   },
   {
     label: 'Core CS',
-    skills: ['OOP', 'Operating Systems', 'DBMS', 'Computer Networks'],
+    skills: ['Object-Oriented Programming', 'Operating Systems', 'DBMS', 'Computer Networks'],
     borderColor: 'border-l-gold',
     labelColor: 'text-gold',
   },
   {
     label: 'Tools & Frameworks',
-    skills: ['Git', 'GitHub', 'React', 'Node.js', 'Express.js', 'Streamlit', 'LangChain', 'REST APIs', 'FAISS'],
+    skills: ['Git', 'GitHub', 'React', 'Node.js', 'Express.js', 'FastAPI', 'Socket.IO', 'Streamlit', 'REST APIs', 'JWT Auth'],
     borderColor: 'border-l-cyan-wire',
     labelColor: 'text-cyan-wire',
   },
   {
-    label: 'Databases',
-    skills: ['MongoDB', 'MySQL'],
+    label: 'AI/ML & LLM APIs',
+    skills: ['LangChain', 'LangGraph', 'LangSmith', 'FAISS', 'RAG', 'Mistral AI', 'Google Gemini', 'Groq', 'Tavily'],
     borderColor: 'border-l-gold',
     labelColor: 'text-gold',
+  },
+  {
+    label: 'Databases',
+    skills: ['MongoDB', 'MySQL'],
+    borderColor: 'border-l-cyan-wire',
+    labelColor: 'text-cyan-wire',
   },
 ]
 
