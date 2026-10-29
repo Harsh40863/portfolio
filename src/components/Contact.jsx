@@ -20,7 +20,7 @@ const socials = [
   },
   {
     icon: MapPin,
-    label: 'Gurugram (On-site / Relocating) · Nagpur, India',
+    label: 'Nagpur, India (Open to Relocate / Remote)',
     href: null,
     external: false,
   },
@@ -89,9 +89,9 @@ export default function Contact() {
       <p className="section-label">Contact</p>
       <h2 className="section-title">Let's connect</h2>
       <p className="section-subtitle">
-        Actively seeking a 6-month on-site internship in Gurugram, available to join
-        immediately. Open to collaborations and conversations about AI systems,
-        full-stack engineering, or competitive programming.
+        Available to join immediately for 6-month internships and full-time roles. Open
+        to collaborations, engineering opportunities, and conversations about GenAI
+        and full-stack systems.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
@@ -104,10 +104,10 @@ export default function Contact() {
           <div className="card border-l-2 border-l-signal-green p-4 mb-6 bg-signal-green/5">
             <div className="flex items-center gap-2 text-signal-green font-mono text-xs mb-1">
               <span className="w-2 h-2 rounded-full bg-signal-green animate-pulse" />
-              <span>Immediate Availability</span>
+              <span>Immediate Joiner</span>
             </div>
             <p className="text-chalk text-sm">
-              Looking for a <strong>6-month on-site internship in Gurugram</strong>; ready to join immediately.
+              Available to join immediately for <strong>6-month internships and engineering roles</strong>. Ready to relocate on-site anywhere or work remote.
             </p>
           </div>
 

@@ -131,7 +131,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-signal-green/30 bg-signal-green/10 text-signal-green text-xs font-mono mb-4">
             <span className="w-2 h-2 rounded-full bg-signal-green animate-pulse" />
-            <span>Seeking 6-Month On-Site Internship in Gurugram · Immediate Joiner</span>
+            <span>Immediate Joiner · Available for 6-Month Internship</span>
           </div>
 
           <span className="section-label">Full-Stack & GenAI Systems Developer</span>
