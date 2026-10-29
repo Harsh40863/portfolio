@@ -11,9 +11,9 @@ const competitive = [
 const leadership = [
   {
     Icon: Award,
-    title: 'Dot-Slash Coding Club (Lead)',
+    title: 'Dot-Slash Coding Club (Senior Core Member)',
     detail:
-      'Picked among the top 10 coders in college; mentor juniors in Data Structures, Algorithms, and competitive programming.',
+      'Selected among the top 10 coders in college; mentor juniors in Data Structures, Algorithms, and competitive programming.',
   },
   {
     Icon: Calendar,
