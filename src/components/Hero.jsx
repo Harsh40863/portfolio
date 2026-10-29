@@ -115,9 +115,9 @@ function RAGPipeline() {
 }
 
 const stats = [
-  { value: 'Global Finalist', label: 'among 29,000+ participants - HackIndia' },
-  { value: '850+', label: 'DSA problems solved' },
-  { value: '1851', label: 'LeetCode peak rating' },
+  { value: 'Top 20 / 29k+', label: 'HackIndia Global Finalist' },
+  { value: '1863 (Knight)', label: 'LeetCode rating' },
+  { value: '1000+', label: 'DSA solved · 100+ contests' },
 ]
 
 export default function Hero() {
@@ -129,7 +129,12 @@ export default function Hero() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="section-label">Full-Stack & AI Systems Developer</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-signal-green/30 bg-signal-green/10 text-signal-green text-xs font-mono mb-4">
+            <span className="w-2 h-2 rounded-full bg-signal-green animate-pulse" />
+            <span>Seeking 6-Month On-Site Internship in Gurugram · Immediate Joiner</span>
+          </div>
+
+          <span className="section-label">Full-Stack & GenAI Systems Developer</span>
 
           <h1 className="font-display text-6xl md:text-[5.5rem] text-chalk mt-4 leading-[0.95]">
             Harsh
@@ -139,8 +144,9 @@ export default function Hero() {
           <SketchUnderline />
 
           <p className="font-body text-lg text-chalk-muted max-w-md mt-7 leading-relaxed">
-            Pre-final year CS at IIIT Nagpur. I architect RAG pipelines, ship
-            production full-stack systems, and solve hard problems at scale.
+            Final-year CS student at IIIT Nagpur building full-stack and GenAI systems
+            end to end: RAG pipelines, LangGraph agents, and containerized services deployed
+            on AWS.
           </p>
 
           <div className="stat-grid mt-8">

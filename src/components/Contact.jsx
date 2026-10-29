@@ -20,7 +20,7 @@ const socials = [
   },
   {
     icon: MapPin,
-    label: 'Nagpur, India',
+    label: 'Gurugram (On-site / Relocating) · Nagpur, India',
     href: null,
     external: false,
   },
@@ -89,7 +89,8 @@ export default function Contact() {
       <p className="section-label">Contact</p>
       <h2 className="section-title">Let's connect</h2>
       <p className="section-subtitle">
-        Open to internships, collaborations, and conversations about AI systems,
+        Actively seeking a 6-month on-site internship in Gurugram, available to join
+        immediately. Open to collaborations and conversations about AI systems,
         full-stack engineering, or competitive programming.
       </p>
 
@@ -100,6 +101,16 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true, amount: 0.2 }}
         >
+          <div className="card border-l-2 border-l-signal-green p-4 mb-6 bg-signal-green/5">
+            <div className="flex items-center gap-2 text-signal-green font-mono text-xs mb-1">
+              <span className="w-2 h-2 rounded-full bg-signal-green animate-pulse" />
+              <span>Immediate Availability</span>
+            </div>
+            <p className="text-chalk text-sm">
+              Looking for a <strong>6-month on-site internship in Gurugram</strong>; ready to join immediately.
+            </p>
+          </div>
+
           <div className="space-y-5">
             {socials.map(({ icon: Icon, label, href, external }) => {
               const content = (

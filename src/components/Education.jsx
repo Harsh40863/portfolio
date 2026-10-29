@@ -3,13 +3,17 @@ import { GraduationCap, MapPin } from 'lucide-react'
 
 const education = {
   institution: 'Indian Institute of Information Technology (IIIT), Nagpur',
-  degree: 'Bachelor of Technology in Computer Science and Engineering',
-  period: 'Aug 2023 — May 2027',
+  degree: 'B.Tech, Computer Science and Engineering',
+  status: 'Final-Year Undergraduate',
+  period: 'Aug 2023 – May 2027',
   cgpa: '7.65 / 10',
   location: 'Nagpur, India',
-  prior: [
-    { label: 'Class XII (CBSE)', score: '84%' },
-    { label: 'Class X (CBSE)', score: '83%' },
+  coreSubjects: [
+    'Data Structures and Algorithms',
+    'Object-Oriented Programming',
+    'Operating Systems',
+    'Database Management Systems (DBMS)',
+    'Computer Networks',
   ],
 }
 
@@ -29,9 +33,14 @@ export default function Education() {
         <div className="flex flex-wrap items-start gap-4 mb-6">
           <GraduationCap size={28} className="text-gold" />
           <div className="flex-1 min-w-[200px]">
-            <h3 className="font-display text-2xl text-chalk leading-tight">
-              {education.institution}
-            </h3>
+            <div className="flex flex-wrap items-center gap-3">
+              <h3 className="font-display text-2xl text-chalk leading-tight">
+                {education.institution}
+              </h3>
+              <span className="font-mono text-[0.65rem] uppercase tracking-wider text-signal-green px-2 py-0.5 border border-signal-green/30 bg-signal-green/10 rounded-xs">
+                {education.status}
+              </span>
+            </div>
             <p className="text-chalk-muted text-sm mt-2">{education.degree}</p>
           </div>
         </div>
@@ -60,12 +69,17 @@ export default function Education() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-3 mt-6">
-          {education.prior.map(({ label, score }) => (
-            <span key={label} className="tag">
-              {label} — <span className="text-gold">{score}</span>
-            </span>
-          ))}
+        <div className="mt-6 pt-5 border-t border-gridline/40">
+          <p className="font-mono text-[0.65rem] uppercase tracking-widest text-gold-muted mb-3">
+            Core CS Coursework
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {education.coreSubjects.map((subject) => (
+              <span key={subject} className="tag">
+                {subject}
+              </span>
+            ))}
+          </div>
         </div>
       </motion.div>
     </section>

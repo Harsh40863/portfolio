@@ -2,6 +2,30 @@ import { motion } from 'framer-motion'
 
 const layers = [
   {
+    label: 'GenAI & Agents',
+    skills: ['RAG', 'LangChain', 'LangGraph', 'LangSmith', 'DeepEval', 'MCP', 'FAISS', 'ChromaDB'],
+    borderColor: 'border-l-cyan-wire',
+    labelColor: 'text-cyan-wire',
+  },
+  {
+    label: 'Backend & Data',
+    skills: ['FastAPI', 'Node.js', 'Express.js', 'REST APIs', 'JWT', 'Socket.IO', 'MongoDB', 'MySQL'],
+    borderColor: 'border-l-gold',
+    labelColor: 'text-gold',
+  },
+  {
+    label: 'DevOps & Cloud',
+    skills: ['Docker', 'Docker Compose', 'GitHub Actions', 'AWS (EC2, IAM)', 'Nginx', 'Git', 'Postman'],
+    borderColor: 'border-l-cyan-wire',
+    labelColor: 'text-cyan-wire',
+  },
+  {
+    label: 'Frontend',
+    skills: ['React', 'Tailwind'],
+    borderColor: 'border-l-gold',
+    labelColor: 'text-gold',
+  },
+  {
     label: 'Languages',
     skills: ['C++', 'Python', 'JavaScript', 'Java', 'C', 'SQL'],
     borderColor: 'border-l-cyan-wire',
@@ -9,27 +33,9 @@ const layers = [
   },
   {
     label: 'Core CS',
-    skills: ['Object-Oriented Programming', 'Operating Systems', 'DBMS', 'Computer Networks'],
+    skills: ['Data Structures and Algorithms', 'OOP', 'Operating Systems', 'DBMS', 'Computer Networks'],
     borderColor: 'border-l-gold',
     labelColor: 'text-gold',
-  },
-  {
-    label: 'Tools & Frameworks',
-    skills: ['Git', 'GitHub', 'React', 'Node.js', 'Express.js', 'FastAPI', 'Socket.IO', 'Streamlit', 'REST APIs', 'JWT Auth'],
-    borderColor: 'border-l-cyan-wire',
-    labelColor: 'text-cyan-wire',
-  },
-  {
-    label: 'AI/ML & LLM APIs',
-    skills: ['LangChain', 'LangGraph', 'LangSmith', 'FAISS', 'RAG', 'Mistral AI', 'Google Gemini', 'Groq', 'Tavily'],
-    borderColor: 'border-l-gold',
-    labelColor: 'text-gold',
-  },
-  {
-    label: 'Databases',
-    skills: ['MongoDB', 'MySQL'],
-    borderColor: 'border-l-cyan-wire',
-    labelColor: 'text-cyan-wire',
   },
 ]
 

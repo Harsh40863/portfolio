@@ -2,43 +2,39 @@ import { motion } from 'framer-motion'
 import { Trophy, Award, Code, Users, Calendar, Medal } from 'lucide-react'
 
 const competitive = [
-  { platform: 'LeetCode', stat: '1851', detail: '290+ problems · DS, DP, Graphs' },
-  { platform: 'CodeChef', stat: '1611', detail: '3★ · 40+ rated contests' },
-  { platform: 'Codeforces', stat: '1240', detail: 'Pupil · 35+ rated rounds' },
-  { platform: 'Total', stat: '850+', detail: 'Across LeetCode, CF, CC, CSES, NeetCode' },
+  { platform: 'LeetCode', stat: '1863', detail: 'Knight · 100+ rated contests' },
+  { platform: 'CodeChef', stat: '1611', detail: '3★ (3 Star) rated coder' },
+  { platform: 'Problems Solved', stat: '1000+', detail: 'LeetCode, CodeChef, Codeforces, CSES' },
+  { platform: 'Contests', stat: '100+', detail: 'Rated algorithmic programming rounds' },
 ]
 
 const leadership = [
   {
-    Icon: Calendar,
-    title: 'Event Head — Flash Code',
-    detail:
-      'Organized Dot-Slash Coding Club contest with 500+ registrations, 40 finalists. Led problem setting, coordination, and a team of 10 volunteers.',
-  },
-  {
-    Icon: Users,
-    title: 'Mentor — Winter of Code',
-    detail:
-      'Guided 5–6 students in Data Structures & Algorithms and competitive programming through regular sessions at Dot-Slash Coding Club.',
-  },
-  {
     Icon: Award,
-    title: 'Core Member — Dot-Slash',
+    title: 'Dot-Slash Coding Club (Lead)',
     detail:
-      'Selected among top 10 members. Contributed to mentoring, technical discussions, and club initiatives.',
+      'Picked among the top 10 coders in college; mentor juniors in Data Structures, Algorithms, and competitive programming.',
+  },
+  {
+    Icon: Calendar,
+    title: 'Flash Code (Event Head)',
+    detail:
+      'Ran a coding contest with 500+ registrations and a team of 10 volunteers covering problem setting, logistics, and evaluation.',
   },
 ]
 
 const milestones = [
   {
     Icon: Trophy,
-    title: 'HackIndia Global Finalist',
-    detail: 'summary.ai — Advanced among 29,000+ teams nationally',
+    title: 'HackIndia (Global Finalist)',
+    detail:
+      'Top 20 of 29,000+ participants in India’s largest AI and Web3 hackathon; presented summary.ai to the CEOs of SingularityNET and Mindcracker.',
   },
   {
     Icon: Medal,
-    title: 'Rebranding Wars — 3rd Place',
-    detail: "Zepto rebrand in 6 hours — logo, palette, typography, pitch",
+    title: 'Hackathon (3rd Place) — Rebranding Wars',
+    detail:
+      'Redesigned Zepto’s visual identity in Figma within 6 hours; executive brand pitch and competitor analysis.',
   },
 ]
 
@@ -48,8 +44,8 @@ export default function Achievements() {
       <p className="section-label">Achievements</p>
       <h2 className="section-title">Milestones & leadership</h2>
       <p className="section-subtitle">
-        Competitive programming ratings, hackathon wins, and community leadership
-        at IIIT Nagpur.
+        Competitive programming ratings, hackathon honors, and positions of
+        responsibility at IIIT Nagpur.
       </p>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
@@ -94,10 +90,10 @@ export default function Achievements() {
 
       <h3 className="font-display text-xl text-chalk mb-5 flex items-center gap-3">
         <Code size={20} className="text-gold" />
-        Leadership & Activities
+        Positions of Responsibility
       </h3>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {leadership.map((item, i) => (
           <motion.div
             key={item.title}

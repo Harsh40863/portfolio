@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="text-center sm:text-left">
             <p className="font-display text-lg text-chalk">Harsh Vaishnav</p>
             <p className="font-mono text-xs text-chalk-muted mt-1">
-              Full-Stack & AI Systems · IIIT Nagpur
+              Final-Year CS · Full-Stack & GenAI Systems · IIIT Nagpur
             </p>
           </div>
 

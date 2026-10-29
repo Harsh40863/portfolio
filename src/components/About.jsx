@@ -5,19 +5,19 @@ const cards = [
   {
     Icon: Cpu,
     title: 'Systems Thinker',
-    body: "At IIIT Nagpur, I don't just write code — I design how data flows. Every project starts with architecture: retrieval pipelines, API contracts, and schema design before the first commit.",
+    body: 'At IIIT Nagpur, I design how data and agents flow. From multi-agent RAG pipelines and LangGraph workflows to idempotency-guaranteed double-entry ledgers and containerized services on AWS EC2, systems are engineered for scale and resilience before the first commit.',
     accent: 'text-cyan-wire',
   },
   {
     Icon: Zap,
     title: 'Competitive Edge',
-    body: 'LeetCode 1851 · CodeChef 3★ (1611) · Codeforces 1240. 850+ problems across LeetCode, Codeforces, CodeChef, CSES, and NeetCode — I solve hard problems fast because I\'ve solved a lot of them.',
+    body: 'LeetCode 1863 (Knight) · CodeChef 1611 (3★) · 1000+ problems solved and 100+ contests. Rigorous problem-solving across Data Structures, Algorithms, and System Design that translates into high-performance, bug-free engineering.',
     accent: 'text-gold',
   },
   {
     Icon: Rocket,
     title: "Ships, Doesn't Slide-Deck",
-    body: 'summary.ai, Harsh Bank of India, VideoMind, and Real-Time Collaborative Code Editor — I architect end-to-end systems with FastAPI, Express.js, MongoDB, LangGraph, and WebSockets so users actually get to use what I build.',
+    body: 'summary.ai (HackIndia Global Finalist, tuned to 65% relevancy at 100% faithfulness) and Harsh Bank of India (deployed to AWS EC2 with Docker Compose, Nginx, Grok API & MCP server). I turn complex architectures into production realities.',
     accent: 'text-cyan-wire',
   },
 ]
